@@ -1,0 +1,62 @@
+/* Tipografia de Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* Paleta de Colores */
+:root {
+    --color-principal: #000000;
+    --color-secundario: #ffffff;
+    --color-acento: #add8e6;
+}
+
+
+
+/* Estilos Generales */
+
+* {
+    font-family: "Roboto", sans-serif;
+    color: var(--color-principal);
+}
+
+
+body {
+    background: linear-gradient(90deg, var(--color-secundario) 35%, var(--color-acento) 100%);
+}
+
+
+/* Titulos */
+h1 {
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-weight: 628;
+    font-size: 2.25rem;
+}
+
+h3 {
+    font-weight: 586;
+    font-size: 2rem;
+}
+
+h4 {
+    font-weight: 544;
+    font-size: 1.75rem;
+}
+
+h5 {
+    font-weight: 502;
+    font-size: 1.5rem;
+}
+
+h6 {
+    font-weight: 460;
+    font-size: 1.25rem;
+}
+
+/* Parrafos */
+p {
+    font-weight: 400;
+    font-size: 1rem;
+}
