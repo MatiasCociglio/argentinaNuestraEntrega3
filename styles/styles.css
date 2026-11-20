@@ -82,3 +82,13 @@
     gap: 2rem;
     list-style-type: none;
 }
+
+/* Main */
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
