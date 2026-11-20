@@ -117,3 +117,13 @@
 .figure {
     padding-bottom: 0.3rem;
 }
+
+
+.mainUl {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.8rem;
+    list-style-type: none;
+}
