@@ -127,3 +127,14 @@
     gap: 1.8rem;
     list-style-type: none;
 }
+
+
+/* Footer */
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
